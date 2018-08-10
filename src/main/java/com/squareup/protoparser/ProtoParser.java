@@ -164,6 +164,11 @@ public final class ProtoParser {
       if (!context.permitsField()) throw unexpected("fields must be nested");
       FieldElement.Label labelEnum = FieldElement.Label.valueOf(label.toUpperCase(Locale.US));
       return readField(documentation, labelEnum);
+    } else if (label.equals("map")) {
+      if (!context.permitsField()) throw unexpected("fields must be nested");
+      FieldElement.Label labelEnum = FieldElement.Label.REQUIRED;
+      pos -= 3;
+      return readField(documentation, labelEnum);
     } else if (label.equals("oneof")) {
       if (!context.permitsOneOf()) throw unexpected("'oneof' must be nested in message");
       return readOneOf(documentation);
