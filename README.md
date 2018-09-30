@@ -14,7 +14,7 @@ Download
 Download [the latest .jar][dl] or depend via Maven: (not working yet)
 ```xml
 <dependency>
-  <groupId>com.squareup</groupId>
+  <groupId>io.github.ya-betmen</groupId>
   <artifactId>protoparser-r</artifactId>
   <version>4.0.4</version>
 </dependency>
