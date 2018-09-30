@@ -1,4 +1,4 @@
-ProtoParser
+ProtoParser-r
 ===========
 
 Java parser for `.proto` schema declarations.
@@ -6,30 +6,21 @@ Java parser for `.proto` schema declarations.
 `ProtoParser` will parse a standalone `File` or schema data directly and return an object
 representation as a `ProtoFile` instance.
 
-Deprecated!
------------
-
-This project is now deprecated. Its replacement is `wire-schema`, within the [Wire Protocol Buffers](https://github.com/square/wire/) project.
+Original project is depricated! But wire-schema (https://github.com/square/wire/) is too big and inconvenient.
 
 Download
 --------
 
-Download [the latest .jar][dl] or depend via Maven:
+Download [the latest .jar][dl] or depend via Maven: (not working yet)
 ```xml
 <dependency>
   <groupId>com.squareup</groupId>
-  <artifactId>protoparser</artifactId>
-  <version>4.0.3</version>
+  <artifactId>protoparser-r</artifactId>
+  <version>4.0.4</version>
 </dependency>
-```
-or via Gradle:
-```groovy
-compile 'com.squareup:protoparser:4.0.3'
 ```
 
 Snapshots of the development version are available in [Sonatype's `snapshots` repository][snap].
-
-
 
 License
 -------
@@ -50,5 +41,5 @@ License
 
 
 
- [dl]: https://search.maven.org/remote_content?g=com.squareup&a=protoparser&v=LATEST
+ [dl]: https://search.maven.org/remote_content?g=com.squareup&a=protoparser-r&v=LATEST
  [snap]: https://oss.sonatype.org/content/repositories/snapshots/
