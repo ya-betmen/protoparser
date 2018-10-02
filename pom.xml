@@ -9,7 +9,7 @@
 
     <name>ProtoParser</name>
     <description>Basic parser for protocol buffer schema declarations.</description>
-    <url>http://github.com/square/protoparser/</url>
+    <url>http://github.com/ya-betmen/protoparser/</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -39,7 +39,7 @@
 
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>http://github.com/square/protoparser/issues</url>
+        <url>http://github.com/ya-betmen/protoparser/issues</url>
     </issueManagement>
 
     <licenses>
