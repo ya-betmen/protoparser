@@ -5,7 +5,7 @@
 
     <groupId>io.github.ya-betmen</groupId>
     <artifactId>protoparser</artifactId>
-    <version>4.0.5</version>
+    <version>4.0.6-SNAPSHOT</version>
 
     <name>ProtoParser</name>
     <description>Basic parser for protocol buffer schema declarations.</description>
@@ -23,7 +23,7 @@
         <url>http://github.com/ya-betmen/protoparser/</url>
         <connection>scm:git:git://github.com/ya-betmen/protoparser.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/ya-betmen/protoparser.git</developerConnection>
-        <tag>protoparser-4.0.5</tag>
+        <tag>HEAD</tag>
     </scm>
     
     <developers>
