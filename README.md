@@ -1,4 +1,4 @@
-ProtoParser-r
+ProtoParser
 ===========
 
 Java parser for `.proto` schema declarations.
@@ -15,7 +15,7 @@ Download [the latest .jar][dl] or depend via Maven: (not working yet)
 ```xml
 <dependency>
   <groupId>io.github.ya-betmen</groupId>
-  <artifactId>protoparser-r</artifactId>
+  <artifactId>protoparser</artifactId>
   <version>4.0.5</version>
 </dependency>
 ```
@@ -41,5 +41,5 @@ License
 
 
 
- [dl]: https://search.maven.org/remote_content?g=com.squareup&a=protoparser-r&v=LATEST
+ [dl]: https://search.maven.org/remote_content?g=io.github.ya-betmen&a=protoparser&v=LATEST
  [snap]: https://oss.sonatype.org/content/repositories/snapshots/
