@@ -26,6 +26,41 @@
         <tag>HEAD</tag>
     </scm>
     
+    <developers>
+        <developer>
+            <id>ya-betmen</id>
+            <name>Petr Zaliautdinov</name>
+            <email>ya.betmen@gmail.com</email>
+        </developer>
+        <developer>
+            <id>JakeWharton</id>
+        </developer>
+        <developer>
+            <id>danrice-square</id>
+        </developer>
+        <developer>
+            <id>swankjesse</id>
+        </developer>
+        <developer>
+            <id>zachmargolis</id>
+        </developer>
+        <developer>
+            <id>raskasa</id>
+        </developer>
+        <developer>
+            <id>DanielHeckrath</id>
+        </developer>
+        <developer>
+            <id>anistor</id>
+        </developer>
+        <developer>
+            <id>alanpaulin</id>
+        </developer>
+        <developer>
+            <id>tbroyer</id>
+        </developer>
+    </developers>
+    
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
