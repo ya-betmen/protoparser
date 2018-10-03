@@ -1,3 +1,5 @@
+Fork of https://github.com/square/protoparser
+
 ProtoParser
 ===========
 
@@ -24,8 +26,6 @@ Snapshots of the development version are available in [Sonatype's `snapshots` re
 
 License
 -------
-
-    Copyright 2013 Square, Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
